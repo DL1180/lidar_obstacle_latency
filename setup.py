@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['simple_detector = obstacle_latency.simple_detector:main',
         ],
     },
 )
